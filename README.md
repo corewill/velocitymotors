@@ -20,7 +20,7 @@ Create ecommerce sit using React / Redux, React Router, 404 not found error comp
 
 
 
-Check out my article on medium:# Medium Article `https://medium.com/@mmbillsus/bubbles-unlimited-fc98d55fb425`
+Check out my article on medium:# Medium Article `https://medium.com/@corewill/a89486cd206b`
 
 Project Link: https://github.com/corewill/web-ft-11-22/tree/master/week6/projectfiles
 
