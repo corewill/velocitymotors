@@ -6,7 +6,7 @@ export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async (id=null, {rejectWithValue} ) => {
     try{
-    const response = await axios.get("http://localhost:3030/products");
+    const response = await axios.get("https://velocitymotorsapi.onrender.com");
     return response?.data;
   } catch (error) {
     return rejectWithValue(error.response.data);

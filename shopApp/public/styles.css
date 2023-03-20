@@ -547,10 +547,6 @@ video {
   }
 }
 
-.fixed {
-  position: fixed;
-}
-
 .order-first {
   order: -9999;
 }
