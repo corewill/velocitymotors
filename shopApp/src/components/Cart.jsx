@@ -72,7 +72,7 @@ const Cart = () => {
                     <button onClick={() => addToCart(item)}>+</button>
                   </div>
                   <div className="cart-product-total-price">
-                    {item.price * cart.totalProducts}
+                    ${item.price * cart.totalProducts}
                   </div>
                 </div>
               ))}
@@ -84,7 +84,7 @@ const Cart = () => {
             <div className="cart-checkout">
               <div className="subtotal">
                 <span>Subtotal</span>
-                <span className="amount">{cart.totalBalance}</span>
+                <span className="amount">${cart.totalBalance}</span>
               </div>
               <p>Taxes and shipping calculated at checkout</p>
               <button>Check out</button>

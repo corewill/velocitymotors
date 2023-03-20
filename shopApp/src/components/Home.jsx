@@ -54,7 +54,7 @@ const Home = () => {
                     <p class="leading-relaxed text-base">{product.desc}</p>
                   </span>
                   <span>
-                    <p class="leading-relaxed text-base">{product.price}</p>
+                    <p class="leading-relaxed text-base">${product.price}</p>
                   </span>
                   <button
                     onClick={() => handleAddToCart(product)}
